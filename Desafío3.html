@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desafío 3</title>
+<style media="screen" type="text/css">
+html,
+body{
+    margin-left: 20px;
+    padding: 5px;
+}
+.bandera{
+    display: inline-flex;
+}
+.bandera__espana{
+    margin-right: 10px;
+    margin-top: 18px;
+}
+.bandera__emea{
+    margin-right: 10px;
+}
+.bandera__dinamarca{
+    margin-right: 10px;
+}
+.bandera__japon{
+    margin-right: 10px;
+}
+.boxred{
+    width: 299px;
+    height: 50px;
+    background-color: red;
+}
+.boxred2{
+    width: 299px;
+    height: 53px;
+    background-color: red;
+    z-index: -5;
+}
+.boxyellow{
+    width: 299px;
+    height: 60px;
+    background-color: yellow;
+    z-index: 14;
+}
+.boxred3{
+    width: 300px;
+    height: 161px;
+    position: relative;
+    background-color: red;
+    z-index: -5;
+}
+.boxwhite1{
+    width: 10px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    left: 71px;
+    bottom: 162px;
+}
+.boxwhite2{
+    width: 11px;
+    height: 301px;
+    background-color: white;
+    position: relative;
+    left: 145px;
+    bottom: 390px;
+    transform: rotate(90deg);
+}
+.boxgreen{
+    background-color: green;
+    width: 247px;
+    height: 60px;
+    position: relative;
+    bottom: 161px;
+    left: 53px;
+}
+.boxwhite3{
+    background-color: white;
+    width: 247px;
+    height: 53px;
+    position: relative;
+    bottom: 161px;
+    left: 53px;
+}
+.boxblack{
+    background-color: black;
+    width: 247px;
+    height: 49px;
+    position: relative;
+    bottom: 161px;
+    left: 53px;
+}
+.bandera__japon{
+    border: 1px solid black;
+    height: 158px;
+    width: 304px;
+}
+.boxred4{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 150px;
+    position: absolute;
+    right: 185px;
+    top: 115px;
+}
+</style>
+<section class= "bandera">
+    <div class="bandera__container">
+        <p>España</p>
+        <div class="bandera__espana">
+            <div class="box boxred">
+            </div>
+            <div class="box boxyellow">
+            </div>
+            <div class="box boxred2">
+            </div>            
+        </div>
+    </div>
+    <div class="bandera__container">
+        <p>Emirates Árabes Unidos</p>
+        <div class="bandera__emea">
+            <div class="box boxred3">
+            </div>
+            <div class="box boxgreen">
+            </div>
+            <div class="box boxwhite3">
+            </div>
+            <div class="box boxblack">
+            </div>              
+        </div>
+    </div>
+    <div class="bandera__container">
+        <p>Dinamarca</p>
+        <div class="bandera__dinamarca">
+            <div class="box boxred3">
+            </div>
+            <div class="box boxwhite1">
+            </div>
+            <div class="box boxwhite2">
+            </div>            
+        </div>
+    </div>
+     <div class="bandera__container">
+        <p>Japón</p>
+        <div class="bandera__japon">
+            <div class="box boxred4">
+            </div>
+        </div>
+    </div>
+</section>
